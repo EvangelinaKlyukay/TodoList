@@ -60,7 +60,7 @@
 			children = (
 				A6B6B04A251DFF430076483E /* AppDelegate.swift */,
 				A6B6B04C251DFF430076483E /* SceneDelegate.swift */,
-				A6B6B04E251DFF430076483E /* ViewController.swift */,
+				A6B6B061251DFF6C0076483E /* Controller */,
 				A6B6B050251DFF430076483E /* Main.storyboard */,
 				A6B6B056251DFF450076483E /* Assets.xcassets */,
 				A6B6B058251DFF450076483E /* LaunchScreen.storyboard */,
@@ -68,6 +68,14 @@
 				A6B6B053251DFF430076483E /* TodoList.xcdatamodeld */,
 			);
 			path = TodoList;
+			sourceTree = "<group>";
+		};
+		A6B6B061251DFF6C0076483E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A6B6B04E251DFF430076483E /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4647YNHF8;
 				INFOPLIST_FILE = TodoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +318,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A4647YNHF8;
 				INFOPLIST_FILE = TodoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
